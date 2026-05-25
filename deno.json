@@ -4,6 +4,10 @@
       "fmt": "deno fmt extensions/vaults/",
       "fmt:check": "deno fmt --check extensions/vaults/",
       "test": "deno test extensions/vaults/passbolt_test.ts"
+    },
+    "lint": {
+      "rules": {
+        "exclude": ["no-import-prefix"]
+      }
     }
   }
-  

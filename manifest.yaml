@@ -1,17 +1,16 @@
- manifestVersion: 1
-  name: "@phy2vir/passbolt"
-  version: "2026.05.25.1"
-  description: "Passbolt CLI vault provider for swamp secrets"
-  repository: "https://github.com/phy2vir/swamp-passbolt"
-  vaults:
-    - passbolt.ts
-  skills:
-    - passbolt
-  additionalFiles:
-    - README.md
-    - LICENSE.txt
-  labels:
-    - passbolt
-    - vault
-    - secrets
-    
+manifestVersion: 1
+name: "@phy2vir/passbolt"
+version: "2026.05.25.1"
+description: "Passbolt CLI vault provider for swamp secrets"
+repository: "https://github.com/phy2vir/swamp-passbolt"
+vaults:
+  - passbolt.ts
+skills:
+  - passbolt
+additionalFiles:
+  - README.md
+  - LICENSE.txt
+labels:
+  - passbolt
+  - vault
+  - secrets

@@ -6,3 +6,19 @@
 # Local extension sources (developer-specific, not shared)
 .swamp-sources.yaml
 # END swamp managed section
+
+# local vault definitions and test vaults
+vaults/
+
+# Deno cache/output
+.deno/
+coverage/
+*.lcov
+
+# logs
+*.log
+
+# editor/OS
+.DS_Store
+.idea/
+.vscode/
